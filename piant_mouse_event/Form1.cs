@@ -17,7 +17,7 @@ namespace piant_mouse_event
         private void Form1_Load(object sender, EventArgs e)
         {
             g = this.CreateGraphics();
-            p = new Pen(Color.Black, 2);
+            p = new Pen(Color.Red, 2);
             draw = false;
         }
         private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
